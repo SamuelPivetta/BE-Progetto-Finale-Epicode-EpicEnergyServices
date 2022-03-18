@@ -1,6 +1,8 @@
 Descrizione Progetto :
 
-Il progetto simula un sistema CRM per un'azienda fornitrice di energia, denominata "EPIC ENERGY SERVICES", che vuole gestire i contatti con i propri clienti business. Il sistema, basato su Web Service REST Spring Boot e database PostgreSQL,permettere di gestire un elenco dei clienti, che può avere fino a due indirizzi, uno per la sede legale ed uno per la sede operativa.I clienti possono essere di vario tipo: PA,SAS.SPA,SRL.Associato ad ogni cliente c'è un insieme di fatture.Ogni fattura ha uno stato,che può essere dinamico, in quanto in base all'evoluzione del business possono essere inseriti nel sistema nuovi stati.
+Il progetto simula un sistema CRM per un'azienda fornitrice di energia, denominata "EPIC ENERGY SERVICES", che vuole gestire i contatti con i propri clienti business. Il sistema, basato su Web Service REST Spring Boot e database PostgreSQL,permettere di gestire un elenco dei clienti, che può avere fino a due indirizzi, uno per la sede legale ed uno per la sede operativa.I clienti possono essere di vario tipo: PA,SAS.SPA,SRL.
+
+Associato ad ogni cliente c'è un insieme di fatture.Ogni fattura ha uno stato,che può essere dinamico, in quanto in base all'evoluzione del business possono essere inseriti nel sistema nuovi stati.
 
 Gli indirizzi dei clienti sono associati ai comuni e province, gestiti attraverso un'anagrafica centralizza(importati da file in formato CSV) e sono caratterizzati da un nome e da un riferimento ad una provincia, anch'essa gestita in anagrafica centralizzata e caratterizzata da un nome ed una sigla.
 
