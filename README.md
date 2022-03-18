@@ -45,7 +45,7 @@ OPERAZIONI CRUD E VARIE OPERAZIONI DI RICERCA E ORDINAMENTO PRESENTI IN SWAGGER 
 
 SERVIZIO WEB
 
-ULR per l'accesso ai servizi web http://localhost:8080/
+URL per l'accesso ai servizi web http://localhost:8080/
 
 sarà richiesto il login (ADMIN o USER) da qui sarà possibile visulizzare le liste dei comuni e province, ed aggiugere,eliminare,modificare i clienti.
 
