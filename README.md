@@ -21,11 +21,11 @@ modello JSON:
 
 ADMIN:
 
-{ "userName" : "admin", "password" : "admin" }
+    { "userName" : "admin", "password" : "admin" }
 
 USER:
 
-{ "userName" : "user", "password" : "user" }
+    { "userName" : "user", "password" : "user" }
 
 Verrà generato un token(JWT):
 
@@ -35,7 +35,7 @@ su Postman dovrà esser inserito in "Authorization" (nella toolbar delle Request
 
 Inserimento Cliente :
 
-{ "ragioneSociale": "Margi", "partitaIva": "TR3252351", "email": "margi@mail.it", "dataInserimento": "2017-01-12", "dataUltimoContatto": "2022-01-14", "fatturatoAnnuale": 5464735383, "pec": "margi@mail.it", "telefono": "3334521789", "emailContatto": "thomas@mail.it", "nomeContatto": "Thomas", "cognomeContatto": "Tam", "telefonoContatto": "3347809123", "sedeLegale": { "via": "via Erbe", "civico": 1, "localita": "Roma", "cap": 39100, "comune": { "id": 3457 } }, "sedeOperativa": { "via": "via Milano", "civico": 22, "localita": "Roma", "cap": 3457 }, "tipoCliente": "SRL" }
+    { "ragioneSociale": "Margi", "partitaIva": "TR3252351", "email": "margi@mail.it", "dataInserimento": "2017-01-12", "dataUltimoContatto": "2022-01-14", "fatturatoAnnuale": 5464735383, "pec": "margi@mail.it", "telefono": "3334521789", "emailContatto": "thomas@mail.it", "nomeContatto": "Thomas", "cognomeContatto": "Tam", "telefonoContatto": "3347809123", "sedeLegale": { "via": "via Erbe", "civico": 1, "localita": "Roma", "cap": 39100, "comune": { "id": 3457 } }, "sedeOperativa":  { "via": "via Milano", "civico": 22, "localita": "Roma", "cap": 3457 }, "tipoCliente": "SRL" }
 
 Inserimento fattura :
 
